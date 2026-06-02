@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000204-blue)](https://doi.org/10.82901/nemar.nm000204)
+
 # Bluetooth speaker experiment (14 subjects, 6 classes, 31 EEG ch)
 
 Bluetooth speaker experiment (14 subjects, 6 classes, 31 EEG ch).
