@@ -9,7 +9,7 @@
  "doi": "10.3389/fnhum.2024.1320457",
  "naming": "upstream_filenames_restored",
  "n_files": 434,
- "total_bytes": 336234041,
+ "total_bytes": 336977312,
  "files": [
   {
    "file": "Dat_sub01/cal_sig.mat",
@@ -1008,8 +1008,8 @@
   },
   {
    "file": "Dat_sub07/sub07_Testing20.mat",
-   "bytes": 0,
-   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   "bytes": 743271,
+   "sha256": "2f1930b4c3fa6826b8d97d0caf0e565230b7e3c9ab29ad8a78abd70621c04df9"
   },
   {
    "file": "Dat_sub07/sub07_Testing21.mat",
