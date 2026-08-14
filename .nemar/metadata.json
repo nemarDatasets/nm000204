@@ -21,16 +21,7 @@
   },
   "keywords": [
     {
-      "term": "EEG",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
-    },
-    {
-      "term": "Brain-Computer Interfaces",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
+      "term": "EEG"
     },
     {
       "term": "Event-Related Potentials, P300",
@@ -39,7 +30,13 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
     },
     {
-      "term": "visual oddball"
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
+    },
+    {
+      "term": "oddball paradigm"
     },
     {
       "term": "home appliance control"
@@ -48,10 +45,13 @@
       "term": "visual stimulation"
     },
     {
-      "term": "actiCHamp"
+      "term": "Visual Oddball Task"
     },
     {
-      "term": "Brain Products"
+      "term": "Healthy Subjects"
+    },
+    {
+      "term": "Online BCI"
     }
   ],
   "related_identifiers": [
@@ -87,7 +87,7 @@
     "eeg"
   ],
   "sizes": [
-    "671.5 MB (854 files)"
+    "672.2 MB (855 files)"
   ],
   "formats": [
     ".bdf",
@@ -98,5 +98,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "ede8a7fc92e2918747f6dcc5968546b1f42c181faf63323b9968003a596df788"
+  "source_hash": "e5c9a0329797793b51ec445ad64689ce9ccae92f4e906d246fe91ee9a8815f87"
 }
