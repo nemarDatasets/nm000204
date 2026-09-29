@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Bluetooth speaker experiment (14 subjects, 6 classes, 31 EEG ch)",
-  "description": "A P300-based brain-computer interface dataset for home appliance control, comprising EEG recordings from 14 healthy subjects performing a visual oddball task with 31-channel recordings at 500 Hz sampling rate. The dataset includes 50 training and 30 testing blocks per subject, with target and non-target stimulus classifications presented via LCD display in an online BCI paradigm.",
-  "methods_description": "EEG data were acquired using a 31-channel actiCHamp system (Brain Products) at 500 Hz sampling rate with linked mastoid reference. Participants performed a P300 oddball task with visual flash stimuli presented on an LCD display at 750 ms stimulus onset asynchrony. The standard 10-20 electrode montage was used with active sensors. The dataset comprises 2 event classes: Target and NonTarget stimuli.",
+  "description": "EEG recordings from 14 healthy participants performing a visual P300 oddball brain-computer interface task for controlling a Bluetooth speaker, one of several home appliances. Six stimulus classes were presented on an LCD display, and 31-channel EEG was recorded at 500 Hz. The dataset supports research on ERP-based BCIs for home appliance control and inter-subject transfer learning.",
+  "methods_description": "31-channel EEG was recorded with an actiCHamp active-electrode system (Brain Products) at 500 Hz, referenced to linked mastoids, using a standard 10-20 montage. Visual flash stimuli were shown on an LCD display with a 750 ms stimulus onset asynchrony. Each subject completed 50 training and 30 testing blocks in one session, with online visual feedback.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -24,9 +24,11 @@
       "term": "EEG"
     },
     {
+      "term": "P300"
+    },
+    {
       "term": "Event-Related Potentials, P300",
       "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
       "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
     },
     {
@@ -35,13 +37,13 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
     },
     {
-      "term": "oddball paradigm"
-    },
-    {
       "term": "home appliance control"
     },
     {
-      "term": "visual stimulation"
+      "term": "oddball paradigm"
+    },
+    {
+      "term": "transfer learning"
     }
   ],
   "related_identifiers": [
@@ -77,7 +79,7 @@
     "eeg"
   ],
   "sizes": [
-    "672.2 MB (855 files)"
+    "641 MB (855 files)"
   ],
   "formats": [
     ".bdf",
