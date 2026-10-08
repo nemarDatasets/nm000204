@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Bluetooth speaker experiment (14 subjects, 6 classes, 31 EEG ch)",
-  "description": "EEG recordings from 14 healthy participants performing a visual P300 oddball brain-computer interface task for controlling a Bluetooth speaker, one of several home appliances. Six stimulus classes were presented on an LCD display, and 31-channel EEG was recorded at 500 Hz. The dataset supports research on ERP-based BCIs for home appliance control and inter-subject transfer learning.",
-  "methods_description": "31-channel EEG was recorded with an actiCHamp active-electrode system (Brain Products) at 500 Hz, referenced to linked mastoids, using a standard 10-20 montage. Visual flash stimuli were shown on an LCD display with a 750 ms stimulus onset asynchrony. Each subject completed 50 training and 30 testing blocks in one session, with online visual feedback.",
+  "description": "EEG recordings from 14 healthy participants performing a visual P300 oddball BCI task for controlling a Bluetooth speaker, one of several home appliances in the original study. Participants viewed flashing stimuli for six classes on an LCD display while 31-channel EEG was recorded at 500 Hz. Each participant completed 50 training and 30 testing blocks, with online visual feedback in the testing blocks. The data support research on ERP-based BCIs and inter-subject transfer learning for home appliance control.",
+  "methods_description": "31-channel EEG was recorded with an actiCHamp amplifier (Brain Products) using active electrodes in a standard 10-20 montage. Sampling rate was 500 Hz and the reference was linked mastoids. A visual oddball paradigm with a 750 ms stimulus onset asynchrony was used, with Target and NonTarget events. Each subject completed one session of 50 training and 30 testing blocks in a laboratory.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -27,23 +27,19 @@
       "term": "P300"
     },
     {
-      "term": "Event-Related Potentials, P300",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
+      "term": "event-related potentials"
     },
     {
       "term": "Brain-Computer Interfaces",
       "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
       "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
     },
     {
       "term": "home appliance control"
     },
     {
-      "term": "oddball paradigm"
-    },
-    {
-      "term": "transfer learning"
+      "term": "visual oddball"
     }
   ],
   "related_identifiers": [
@@ -90,5 +86,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "dc99e219647484f31c1ec06927342d8c4d909699e491b36a929feb26b9e2e5d2"
+  "source_hash": "51d572cdac72ef322ad7d38ac8e7a37682030c48bc899bf153d46d04553af31b"
 }
